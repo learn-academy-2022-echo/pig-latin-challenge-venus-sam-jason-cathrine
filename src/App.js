@@ -44,9 +44,23 @@ const App = () => {
             return eachWord + "way"
           }else if (eachWord.charAt(0) === "u") {
             return eachWord + "way"
+          } 
+          else if (eachWord.indexOf("qu") !== -1) {
+            let firstLetters = eachWord.substring(0, eachWord.indexOf("qu")+2)
+            let endLetters = eachWord.substring(eachWord.indexOf("qu")+2)
+            return endLetters + firstLetters + "ay"
           }
-        } 
+        }
 
+      //   const vowels = ["a", "e", "i", "o", "u"]
+      //   for(let i=0; i <eachWord.length; i++) {
+      //     if(eachWord.charAt(0) !== vowels && eachWord.charAt(1) === "q") {
+      //       return eachWord.substring(eachWord.length - 3) + "squay"
+      //   } else if(eachWord.charAt([i]) === "q" && "u") {
+      //     return eachWord.substring(eachWord.length - 3) + "quay" 
+      //   }
+      // }
+    
 
 
 
