@@ -33,7 +33,23 @@ const App = () => {
 
       // ACTION ITEM: your Pig Latin logic goes here!
 
-    
+      for(let i = 0; i < eachWord.length; i++) {
+        if (eachWord.charAt(0) === "a") {
+          return eachWord + "way"
+          } else if (eachWord.charAt(0) === "e") {
+            return eachWord + "way"
+          }else if (eachWord.charAt(0) === "i") {
+            return eachWord + "way"
+          }else if (eachWord.charAt(0) === "o") {
+            return eachWord + "way"
+          }else if (eachWord.charAt(0) === "u") {
+            return eachWord + "way"
+          }
+        } 
+
+
+
+
 
       // ACTION ITEM: this return will be the output of your Pig Latin'd code
       return eachWord
