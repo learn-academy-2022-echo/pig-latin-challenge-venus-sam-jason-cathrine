@@ -111,8 +111,12 @@ Methods-
 Pseudo Code (QU FUNCTIONALITY)
 Add condition that will loop through an array and check if the word has "qu"
 If the word contains "qu" then we move all consonants prior to "u" and "u" to the end word + "ay"
-Method/s? 
+Method/s? .substring()
 Output:  the remaining letters + letters that were moved + ay
 
+
+Pseudo Code (Y FUNCTION)
+Add a condition that will loop through an array and check if there are no vowels, then we can check for the y.
+We'll move the y to the front and add an ay to the end.
 
 
