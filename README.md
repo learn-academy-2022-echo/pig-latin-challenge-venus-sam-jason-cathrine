@@ -119,4 +119,5 @@ Pseudo Code (Y FUNCTION)
 Add a condition that will loop through an array and check if there are no vowels, then we can check for the y.
 We'll move the y to the front and add an ay to the end.
 
+Pseudo Code (CONSONANT FUNCTIONALITY)
 
