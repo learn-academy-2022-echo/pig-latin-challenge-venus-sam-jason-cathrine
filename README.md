@@ -99,13 +99,20 @@ Oday ouyay eakspay igpay atinlay? If you are scratching your head at that statem
 
 
 
-Pseudo Code
+Pseudo Code (VOWEL FUNCTIONALITY)
 Create a function that takes a array as an input. 
 If statement to determine if the word begins with a vowel
 if the string does begin with a vowel, return the word with way at the end. 
 
-
-
 Methods- 
 .push() to add a string to the end of an array.
+
+
+Pseudo Code (QU FUNCTIONALITY)
+Add condition that will loop through an array and check if the word has "qu"
+If the word contains "qu" then we move all consonants prior to "u" and "u" to the end word + "ay"
+Method/s? 
+Output:  the remaining letters + letters that were moved + ay
+
+
 
