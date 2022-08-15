@@ -96,3 +96,16 @@ Oday ouyay eakspay igpay atinlay? If you are scratching your head at that statem
 - As a developer, my variables are all named semantically.
 - As a developer, I have refactored and efficient code.
 - As a developer, I have my application [deployed as a live website](https://render.com/docs/deploy-create-react-app).
+
+
+
+Pseudo Code
+Create a function that takes a array as an input. 
+If statement to determine if the word begins with a vowel
+if the string does begin with a vowel, return the word with way at the end. 
+
+
+
+Methods- 
+.push() to add a string to the end of an array.
+
