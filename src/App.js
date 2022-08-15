@@ -55,7 +55,12 @@ const App = () => {
 for (let i = 0; i < eachWord.length; i ++ ) {
   if (eachWord[i] === "y" && eachWord[i] !== vowels)
   return eachWord.slice(2) + eachWord.slice(0,2) + "ay"
+} else {
+  
 }
+
+
+
       //   for(let i=0; i <eachWord.length; i++) {
       //     if(eachWord.charAt(0) !== vowels && eachWord.charAt(1) === "q") {
       //       return eachWord.substring(eachWord.length - 3) + "squay"
